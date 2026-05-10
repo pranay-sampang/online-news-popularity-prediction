@@ -57,10 +57,15 @@ The dataset used is the [Online News Popularity Dataset](https://archive.ics.uci
 ## Models Used
 | Model | Type |
 |---|---|
-| Linear Regression | Baseline |
+| Dummy (mean) | Baseline |
+| Linear Regression | Linear |
+| Ridge (α = 1.0)  | Linear |
+| Lasso (α = 0.01) | Linear |
 | Random Forest | Ensemble |
 | Gradient Boosting | Ensemble |
 | XGBoost | Ensemble |
+| LightGBM | Ensemble |
+| LightGBM (Optuna) | Ensemble |
 
 ---
 
